@@ -1,0 +1,71 @@
+{
+  "name": "@geut/moleculer-browser",
+  "version": "1.0.0",
+  "description": "Template to create modules following the Geut path",
+  "main": "dist/moleculer.umd.js",
+  "scripts": {
+    "clean": "del-cli dist",
+    "build": "rollup -c",
+    "example": "parcel example/index.html --no-cache",
+    "test": "jest tests --passWithNoTests",
+    "posttest": "npm run lint",
+    "lint": "eslint --ignore-path .gitignore \"**/*.js\"",
+    "version": "chan release ${npm_package_version} && git add .",
+    "prepublish": "npm test"
+  },
+  "dependencies": {
+    "browser-process-hrtime": "^1.0.0",
+    "mitt": "^1.1.3",
+    "timers-browserify": "^2.0.10"
+  },
+  "devDependencies": {
+    "@geut/chan": "^1.3.0",
+    "cross-env": "^5.2.0",
+    "del-cli": "^2.0.0",
+    "dependency-tree": "^7.0.2",
+    "eslint": "^5.14.1",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "fast-glob": "^3.0.4",
+    "jest": "^24.1.0",
+    "moleculer": "^0.13.9",
+    "parcel-bundler": "^1.12.3",
+    "read-package-tree": "^5.3.1",
+    "rollup": "^1.16.7",
+    "rollup-plugin-alias": "^1.5.2",
+    "rollup-plugin-analyzer": "^3.0.1",
+    "rollup-plugin-commonjs": "^10.0.0",
+    "rollup-plugin-inject": "^3.0.0",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-node-resolve": "^5.0.4",
+    "rollup-plugin-terser": "^5.0.0",
+    "rollup-plugin-visualizer": "^2.4.4"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/tests/samples/"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geut/moleculer-browser.git"
+  },
+  "keywords": [
+    "create",
+    "geut",
+    "module"
+  ],
+  "author": {
+    "name": "GEUT",
+    "email": "contact@geutstudio.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/geut/moleculer-browser/issues"
+  },
+  "homepage": "https://github.com/geut/moleculer-browser#readme"
+}
