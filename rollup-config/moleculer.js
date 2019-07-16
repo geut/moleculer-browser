@@ -46,11 +46,13 @@ let aliasModules = aliasResolve([
   ...cachers,
   ...strategies,
   'moleculer-repl'
-], 'src/non-compatible.js')
+], 'src/fallback/non-compatible.js')
 
 aliasModules = aliasResolve([
   ...serializers
-], 'src/unloaded-serializer.js', aliasModules)
+], 'src/fallback/unloaded-serializer.js', aliasModules)
+
+aliasModules['./cpu-usage'] = path.resolve('src/cpu-usage.js')
 
 export {
   aliasModules,
