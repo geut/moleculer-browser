@@ -1,7 +1,7 @@
 {
   "name": "@geut/moleculer-browser",
   "version": "0.0.1",
-  "description": "Template to create modules following the Geut path",
+  "description": "Moleculer for the browser.",
   "main": "dist/moleculer.umd.js",
   "scripts": {
     "clean": "del-cli dist",
