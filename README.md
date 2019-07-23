@@ -15,7 +15,7 @@ $ npm install @geut/moleculer-browser
 
 ## <a name="usage"></a> Usage
 
-```
+```javascript
 const { ServiceBroker } = require('@geut/moleculer-browser')
 
 const broker = new ServiceBroker({
