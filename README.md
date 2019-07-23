@@ -7,6 +7,13 @@
 
 > [Moleculer](https://github.com/moleculerjs/moleculer) for the browser.
 
+moleculer-browser is a wrapper on top of [Moleculer](https://github.com/moleculerjs/moleculer).
+
+Most of the 90% of the Moleculer's codebase is platform agnostic.
+
+Using [rollup](https://rollupjs.org/) we replaced the specific code for Node.js with
+shims to simulate the original behaviour.
+
 ## <a name="install"></a> Install
 
 ```
@@ -40,13 +47,13 @@ broker.start()
   .catch(err => console.error(`Error occured! ${err.message}`))
 ```
 
-## <a name="why"></a> Why?
+## <a name="why"></a> Why
 
 When we talk about services we think at some point in a process running in some environment. Well, the browser is a process too.
 
 What if the browser could provide a service itself through a network on top of WebSockets or WebRTC?
 
-That's the what we want to show here.
+That's what we want to show here.
 
 ## <a name="issues"></a> Issues
 
