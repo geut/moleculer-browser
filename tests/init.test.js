@@ -1,5 +1,7 @@
 const NodeMoleculer = require('moleculer')
 
+jest.setTimeout(50000)
+
 describe('check initialization of Moleculer', () => {
   beforeEach(async () => {
     await page.goto(PATH, { waitUntil: 'load' })
