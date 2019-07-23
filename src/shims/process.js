@@ -51,4 +51,6 @@ _process.uptime = () => {
   return Math.floor((Date.now() - _process._startTime) / 1000)
 }
 
+_process.pid = 0
+
 export default _process

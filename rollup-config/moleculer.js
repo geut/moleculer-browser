@@ -53,6 +53,7 @@ aliasModules = aliasResolve([
 ], 'src/fallback/unloaded-serializer.js', aliasModules)
 
 aliasModules['./cpu-usage'] = path.resolve('src/cpu-usage.js')
+aliasModules['./logger'] = path.resolve('src/logger.js')
 
 export {
   aliasModules,
