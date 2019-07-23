@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "Moleculer for the browser.",
   "main": "dist/moleculer.umd.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "clean": "del-cli dist",
     "build": "rollup -c",
