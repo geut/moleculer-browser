@@ -26,7 +26,7 @@
     "timers-browserify": "^2.0.10"
   },
   "devDependencies": {
-    "@geut/chan": "^1.3.0",
+    "@geut/chan": "^2.1.1",
     "cross-env": "^5.2.0",
     "del-cli": "^2.0.0",
     "dependency-tree": "^7.0.2",
