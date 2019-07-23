@@ -1,6 +1,6 @@
 {
   "name": "@geut/moleculer-browser",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Template to create modules following the Geut path",
   "main": "dist/moleculer.umd.js",
   "scripts": {
