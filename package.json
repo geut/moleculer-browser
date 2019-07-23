@@ -7,7 +7,8 @@
     "clean": "del-cli dist",
     "build": "rollup -c",
     "example": "parcel example/index.html --no-cache",
-    "test": "jest tests --passWithNoTests",
+    "test": "jest --passWithNoTests",
+    "test:serve": "parcel tests/server/index.html --no-cache",
     "posttest": "npm run lint",
     "lint": "eslint --ignore-path .gitignore \"**/*.js\"",
     "version": "chan release ${npm_package_version} && git add .",
@@ -39,6 +40,7 @@
     "jest-puppeteer": "^4.3.0",
     "moleculer": "^0.13.9",
     "parcel-bundler": "^1.12.3",
+    "puppeteer": "^1.19.0",
     "read-package-tree": "^5.3.1",
     "rollup": "^1.16.7",
     "rollup-plugin-alias": "^1.5.2",
@@ -53,9 +55,12 @@
     "rollup-plugin-visualizer": "^2.4.4"
   },
   "jest": {
-    "testPathIgnorePatterns": [
-      "/node_modules/",
-      "/tests/samples/"
+    "preset": "jest-puppeteer",
+    "globals": {
+      "PATH": "http://localhost:1234"
+    },
+    "testMatch": [
+      "**/tests/**/*.test.js"
     ]
   },
   "repository": {

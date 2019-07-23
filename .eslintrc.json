@@ -9,7 +9,12 @@
   "extends": "standard",
   "globals": {
     "Atomics": "readonly",
-    "SharedArrayBuffer": "readonly"
+    "SharedArrayBuffer": "readonly",
+    "PATH": "readonly",
+    "page": true,
+    "browser": true,
+    "context": true,
+    "jestPuppeteer": true
   },
   "parserOptions": {
     "ecmaVersion": 2018

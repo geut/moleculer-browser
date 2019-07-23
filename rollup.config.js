@@ -25,7 +25,7 @@ const config = async () => {
   return {
     input: 'src/index.js',
     output: {
-      name: 'moleculer',
+      name: 'Moleculer',
       file: pkg.main,
       format: 'umd',
       sourcemap: true
