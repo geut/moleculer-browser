@@ -1,6 +1,6 @@
 {
   "name": "@geut/moleculer-browser",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Moleculer for the browser.",
   "main": "dist/moleculer.umd.js",
   "files": [
