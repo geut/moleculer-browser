@@ -47,6 +47,24 @@ broker.start()
   .catch(err => console.error(`Error occured! ${err.message}`))
 ```
 
+## <a name="playground"></a> Playground
+
+### Glitch
+
+<!-- View Source Button -->
+<a href="https://glitch.com/edit/#!/moleculer-browser">
+  <img src="https://cdn.glitch.com/2bdfb3f8-05ef-4035-a06e-2043962a3a13%2Fview-source%402x.png?1513093958802" alt="view source" height="33">
+</a>
+
+<!-- Remix Button -->
+<a href="https://glitch.com/edit/#!/remix/moleculer-browser">
+  <img src="https://cdn.glitch.com/2bdfb3f8-05ef-4035-a06e-2043962a3a13%2Fremix%402x.png?1513093958726" alt="remix this" height="33">
+</a>
+
+### Codesandbox
+
+[![Edit moleculer-browser](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/moleculer-browser-1tk71?fontsize=14)
+
 ## <a name="why"></a> Why
 
 When we talk about services we think at some point in a process running in some environment. Well, the browser is a process too.
