@@ -14,7 +14,7 @@
     "test:serve": "run-s build test:parcel",
     "posttest": "npm run lint",
     "lint": "eslint --ignore-path .gitignore \"**/*.js\"",
-    "version": "chan release ${npm_package_version} && git add .",
+    "version": "chan release --allow-yanked ${npm_package_version} && git add .",
     "prepublishOnly": "npm test && npm run build",
     "example": "parcel example/index.html --no-cache -d example/dist"
   },
