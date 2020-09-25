@@ -10,7 +10,6 @@ const props = ['on', 'addListener', 'once', 'off', 'removeListener', 'removeAllL
 props.forEach(prop => {
   _process[prop] = ev[prop].bind(ev)
 })
-window.process = _process
 
 // hrtime
 _process.hrtime = hrtime
