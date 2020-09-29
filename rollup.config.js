@@ -37,7 +37,6 @@ const config = async () => {
       }),
       inject({
         include: moleculerSrcPath,
-        laconcha: path.resolve('src/process.js'),
         process: path.resolve('src/process.js'),
         setTimeout: path.resolve('src/timeout.js'),
         setInterval: path.resolve('src/interval.js')
@@ -49,7 +48,6 @@ const config = async () => {
       }),
       replace({
         include: 'src/moleculer/src/loggers/console.js',
-        levelIdx: 'puto',
         'log(...pargs)': '.log(pargs.join(" "));',
         'warn(...pargs)': '.log(pargs.join(" "));',
         'error(...pargs)': '.log(pargs.join(" "));',

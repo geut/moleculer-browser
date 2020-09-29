@@ -71,6 +71,22 @@
   "standard": {
     "ignore": [
       "src/moleculer/**"
+    ],
+    "env": {
+      "browser": true,
+      "commonjs": true,
+      "es6": true,
+      "node": true,
+      "jest": true
+    },
+    "globals": [
+      "Atomics",
+      "SharedArrayBuffer",
+      "PATH",
+      "page",
+      "browser",
+      "context",
+      "jestPuppeteer"
     ]
   },
   "repository": {
