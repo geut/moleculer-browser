@@ -49,8 +49,8 @@ const config = async () => {
       replace({
         include: 'src/moleculer/src/loggers/console.js',
         'log(...pargs)': '.log(pargs.join(" "));',
-        'warn(...pargs)': '.log(pargs.join(" "));',
-        'error(...pargs)': '.log(pargs.join(" "));',
+        'warn(...pargs)': '.warn(pargs.join(" "));',
+        'error(...pargs)': '.error(pargs.join(" "));',
         delimiters: ['.', ';']
       }),
       isProduction && terser(),
