@@ -1,5 +1,5 @@
-import cpus from 'cpus'
-import RafPerf from 'raf-perf'
+const cpus = require('cpus')
+const RafPerf = require('raf-perf')
 
 // Simulate https://nodejs.org/api/os.html#os_os_loadavg
 const _osLoadAvg = [
@@ -92,4 +92,4 @@ function getCpuUsage (sampleTime = 100) {
 
 getCpuUsage.loadavg = loadavg
 
-export default getCpuUsage
+module.exports = getCpuUsage

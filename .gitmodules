@@ -1,0 +1,3 @@
+[submodule "src/moleculer"]
+	path = src/moleculer
+	url = https://github.com/moleculerjs/moleculer.git
