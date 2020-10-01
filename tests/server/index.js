@@ -1,1 +1,1 @@
-window.Moleculer = require('../../dist/moleculer.umd')
+window.Moleculer = require('../../dist/moleculer.dev')

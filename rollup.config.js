@@ -12,8 +12,6 @@ import { terser } from 'rollup-plugin-terser'
 import aliasModules from './config/alias'
 import { normalizePath } from './config/utils'
 
-import pkg from './package.json'
-
 const isProduction = process.env.NODE_ENV === 'production'
 
 const moleculerSrcPath = 'src/moleculer/**'
@@ -23,7 +21,7 @@ const config = async () => {
     input: 'src/moleculer/index.js',
     output: {
       name: 'Moleculer',
-      file: pkg.main,
+      file: `dist/moleculer.${isProduction ? 'min' : 'dev'}.js`,
       format: 'umd',
       sourcemap: true
     },
@@ -55,7 +53,7 @@ const config = async () => {
       }),
       isProduction && terser(),
       !isProduction && visualizer({ template: 'treemap' }),
-      analyze({ hideDeps: true, limit: 0 })
+      !isProduction && analyze({ hideDeps: true, limit: 0 })
     ]
   }
 }

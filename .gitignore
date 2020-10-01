@@ -87,6 +87,9 @@ typings/
 # DynamoDB Local files
 .dynamodb/
 
-dist/
+dist/moleculer.dev*
+
+example/dist
+tests/server/dist
 
 stats.html

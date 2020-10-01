@@ -2,13 +2,14 @@
   "name": "@geut/moleculer-browser",
   "version": "0.0.4",
   "description": "Moleculer for the browser.",
-  "main": "dist/moleculer.umd.js",
+  "main": "dist/moleculer.min.js",
   "files": [
     "dist"
   ],
   "scripts": {
     "clean": "del-cli dist",
     "build": "rollup -c",
+    "build:prod": "cross-env NODE_ENV=production npm run build",
     "test": "jest --passWithNoTests",
     "test:parcel": "parcel tests/server/index.html -d tests/server/dist",
     "test:serve": "run-s build test:parcel",
@@ -16,7 +17,8 @@
     "lint": "standard \"**/*.js\"",
     "version": "chan release --allow-yanked ${npm_package_version} && git add .",
     "prepublishOnly": "npm test && npm run build",
-    "example": "parcel example/index.html --no-cache -d example/dist"
+    "example": "run-s build example:parcel",
+    "example:parcel": "parcel example/index.html --no-cache -d example/dist"
   },
   "dependencies": {
     "args": "^5.0.1",
@@ -44,6 +46,7 @@
     "@rollup/plugin-inject": "^4.0.2",
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-replace": "^2.3.3",
+    "cross-env": "^7.0.2",
     "del-cli": "^2.0.0",
     "jest": "^24.1.0",
     "jest-puppeteer": "^4.3.0",
