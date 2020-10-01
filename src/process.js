@@ -28,4 +28,12 @@ process.memoryUsage = () => {
   }
 }
 
+process._getActiveHandles = function () {
+  return []
+}
+
+process._getActiveRequests = function () {
+  return []
+}
+
 module.exports = process

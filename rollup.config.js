@@ -10,6 +10,7 @@ import visualizer from 'rollup-plugin-visualizer'
 import { terser } from 'rollup-plugin-terser'
 
 import aliasModules from './config/alias'
+import { normalizePath } from './config/utils'
 
 import pkg from './package.json'
 
@@ -28,18 +29,17 @@ const config = async () => {
     },
     plugins: [
       json(),
-      commonjs({
-        transformMixedEsModules: true
-      }),
+      commonjs(),
       alias({
         include: moleculerSrcPath,
         entries: aliasModules
       }),
       inject({
-        include: moleculerSrcPath,
-        process: path.resolve('src/process.js'),
-        setTimeout: path.resolve('src/timeout.js'),
-        setInterval: path.resolve('src/interval.js')
+        // we need to override the process shim of kleur too
+        include: [moleculerSrcPath, 'node_modules/kleur/index.js'],
+        process: normalizePath(path.resolve('src/process.js')),
+        setTimeout: normalizePath(path.resolve('src/timeout.js')),
+        setInterval: normalizePath(path.resolve('src/interval.js'))
       }),
       replace({
         include: moleculerSrcPath,

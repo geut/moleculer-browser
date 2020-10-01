@@ -1,11 +1,18 @@
 import path from 'path'
+import { normalizePath } from './utils'
 
 const aliasModules = {
-  './cpu-usage': path.resolve('src/cpu-usage.js'),
-  'node-fetch': path.resolve('src/fetch.js'),
-  os: path.resolve('src/os.js'),
-  zlib: path.resolve('src/zlib.js')
+  './cpu-usage': 'src/cpu-usage.js',
+  'node-fetch': 'src/fetch.js',
+  os: 'src/os.js',
+  zlib: 'src/zlib.js',
+  // kleur must be added to the bundled in order to work properly
+  kleur: 'node_modules/kleur/index.js'
 }
+
+Object.keys(aliasModules).forEach(prop => {
+  aliasModules[prop] = normalizePath(path.resolve(aliasModules[prop]))
+})
 
 const incompatibleDependencies = [
   'moleculer-repl',
@@ -46,11 +53,11 @@ const incompatibleFiles = [
 ]
 
 incompatibleDependencies.forEach(dep => {
-  aliasModules[dep] = path.resolve('src/no-impl.js')
+  aliasModules[dep] = normalizePath(path.resolve('src/no-impl.js'))
 })
 
 incompatibleFiles.forEach(dep => {
-  aliasModules[dep] = path.resolve('src/no-impl.js')
+  aliasModules[dep] = normalizePath(path.resolve('src/no-impl.js'))
 })
 
 export default aliasModules
