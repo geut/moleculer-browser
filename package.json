@@ -4,7 +4,8 @@
   "description": "Moleculer for the browser.",
   "main": "dist/moleculer.min.js",
   "files": [
-    "dist"
+    "dist/moleculer.min.js",
+    "dist/moleculer.min.js.map"
   ],
   "scripts": {
     "clean": "del-cli dist",
