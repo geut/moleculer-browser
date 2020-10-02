@@ -16,8 +16,8 @@
     "test:serve": "run-s build test:parcel",
     "posttest": "npm run lint",
     "lint": "standard \"**/*.js\"",
-    "version": "chan release --allow-yanked ${npm_package_version} && git add .",
-    "prepublishOnly": "npm test && npm run build:prod",
+    "version": "npm run build:prod && chan release --allow-yanked ${npm_package_version} && git add .",
+    "prepublishOnly": "npm test",
     "example": "run-s build example:parcel",
     "example:parcel": "parcel example/index.html --no-cache -d example/dist"
   },

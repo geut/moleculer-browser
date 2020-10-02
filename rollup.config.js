@@ -34,7 +34,7 @@ const config = async () => {
       }),
       inject({
         // we need to override the process shim of kleur too
-        include: [moleculerSrcPath, 'node_modules/kleur/index.js'],
+        include: moleculerSrcPath,
         process: normalizePath(path.resolve('src/process.js')),
         setTimeout: normalizePath(path.resolve('src/timeout.js')),
         setInterval: normalizePath(path.resolve('src/interval.js'))
@@ -43,13 +43,6 @@ const config = async () => {
         include: moleculerSrcPath,
         nodejs: 'type: "browser"',
         delimiters: ['type: "', '"']
-      }),
-      replace({
-        include: 'src/moleculer/src/loggers/console.js',
-        'log(...pargs)': '.log(pargs.join(" "));',
-        'warn(...pargs)': '.warn(pargs.join(" "));',
-        'error(...pargs)': '.error(pargs.join(" "));',
-        delimiters: ['.', ';']
       }),
       isProduction && terser(),
       !isProduction && visualizer({ template: 'treemap' }),

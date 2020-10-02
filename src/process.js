@@ -1,5 +1,7 @@
 /* global performance */
-const _process = require('bfs-process')
+const Process = require('bfs-process/js/cjs/process')
+
+const _process = new Process()
 
 if (typeof queueMicrotask !== 'undefined') {
   _process.nextTick = function nextTick (handler, ...args) {

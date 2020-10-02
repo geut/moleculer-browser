@@ -5,9 +5,7 @@ const aliasModules = {
   './cpu-usage': 'src/cpu-usage.js',
   'node-fetch': 'src/fetch.js',
   os: 'src/os.js',
-  zlib: 'src/zlib.js',
-  // kleur must be added to the bundled in order to work properly
-  kleur: 'node_modules/kleur/index.js'
+  zlib: 'src/zlib.js'
 }
 
 Object.keys(aliasModules).forEach(prop => {
