@@ -1,14 +1,14 @@
 /* global performance */
-const process = require('bfs-process')
+const _process = require('bfs-process')
 
 if (typeof queueMicrotask !== 'undefined') {
-  process.nextTick = function nextTick (handler, ...args) {
+  _process.nextTick = function nextTick (handler, ...args) {
     queueMicrotask(() => handler(...args))
   }
 }
 
 // memoryUsage
-process.memoryUsage = () => {
+_process.memoryUsage = () => {
   if (!performance && !performance.memory) {
     return {
       rss: 0,
@@ -28,12 +28,12 @@ process.memoryUsage = () => {
   }
 }
 
-process._getActiveHandles = function () {
+_process._getActiveHandles = function () {
   return []
 }
 
-process._getActiveRequests = function () {
+_process._getActiveRequests = function () {
   return []
 }
 
-module.exports = process
+module.exports = _process
