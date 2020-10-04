@@ -94,20 +94,18 @@ class Process extends EventEmitter {
 const proc = new Process()
 
 //
-// We monkey patch the current process to use our updated version or we define our process as global.
+// We monkey patch the current process shim to use our updated version.
 //
-const currentProcess = (global && global.process) || process
-if (currentProcess) {
+if (typeof process !== 'undefined') {
   for (const prop in proc) {
     if (typeof proc[prop] === 'function') {
-      currentProcess[prop] = proc[prop].bind(proc)
+      process[prop] = proc[prop].bind(proc)
       continue
     }
 
-    currentProcess[prop] = proc[prop]
+    process[prop] = proc[prop]
   }
-} else {
-  global.process = proc
 }
+global.process = proc
 
 export default proc
