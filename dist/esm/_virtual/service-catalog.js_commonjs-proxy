@@ -1,0 +1,3 @@
+import serviceCatalog from '../moleculer/src/registry/service-catalog.js';
+export { default } from '../moleculer/src/registry/service-catalog.js';
+//# sourceMappingURL=service-catalog.js_commonjs-proxy.map

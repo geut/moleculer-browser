@@ -1,0 +1,3 @@
+import encryption from '../moleculer/src/middlewares/transmit/encryption.js';
+export { default } from '../moleculer/src/middlewares/transmit/encryption.js';
+//# sourceMappingURL=encryption.js_commonjs-proxy.map

@@ -1,0 +1,3 @@
+import loggerFactory from '../moleculer/src/logger-factory.js';
+export { default } from '../moleculer/src/logger-factory.js';
+//# sourceMappingURL=logger-factory.js_commonjs-proxy.map

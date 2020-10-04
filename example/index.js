@@ -1,4 +1,4 @@
-const { ServiceBroker } = require('../dist/moleculer.dev')
+const { ServiceBroker } = require('..')
 
 const broker = window.broker = new ServiceBroker({
   transporter: { type: 'fake' },

@@ -1,0 +1,3 @@
+import serviceBroker from '../moleculer/src/service-broker.js';
+export { default } from '../moleculer/src/service-broker.js';
+//# sourceMappingURL=service-broker.js_commonjs-proxy.map

@@ -1,0 +1,3 @@
+import cpuUsage from '../moleculer/src/cpu-usage.js';
+export { default } from '../moleculer/src/cpu-usage.js';
+//# sourceMappingURL=cpu-usage.js_commonjs-proxy.map

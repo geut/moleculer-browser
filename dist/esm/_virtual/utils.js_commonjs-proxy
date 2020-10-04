@@ -1,0 +1,3 @@
+import utils_1 from '../moleculer/src/utils.js';
+export { default } from '../moleculer/src/utils.js';
+//# sourceMappingURL=utils.js_commonjs-proxy.map

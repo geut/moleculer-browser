@@ -1,0 +1,3 @@
+import * as zlib from '../zlib.js';
+export { zlib as default };
+//# sourceMappingURL=zlib.js_commonjs-proxy.map

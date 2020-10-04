@@ -1,10 +1,8 @@
-const fflate = require('fflate')
+import * as fflate from 'fflate'
 
-module.exports = {
-  deflateRaw: (...args) => fflate.deflateSync(...args),
-  inflateRaw: (...args) => fflate.inflateSync(...args),
-  gzip: (...args) => fflate.gzip(...args),
-  gunzip: (...args) => fflate.gunzip(...args),
-  deflate: (...args) => fflate.zlibSync(...args),
-  inflate: (...args) => fflate.unzlibSync(...args)
-}
+export const deflateRaw = (...args) => fflate.deflateSync(...args)
+export const inflateRaw = (...args) => fflate.inflateSync(...args)
+export const gzip = (...args) => fflate.gzip(...args)
+export const gunzip = (...args) => fflate.gunzip(...args)
+export const deflate = (...args) => fflate.zlibSync(...args)
+export const inflate = (...args) => fflate.unzlibSync(...args)

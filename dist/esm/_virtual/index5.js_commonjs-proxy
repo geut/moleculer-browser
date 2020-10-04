@@ -1,0 +1,3 @@
+import strategies from '../moleculer/src/strategies/index.js';
+export { default } from '../moleculer/src/strategies/index.js';
+//# sourceMappingURL=index5.js_commonjs-proxy.map

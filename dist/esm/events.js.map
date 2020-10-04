@@ -1,0 +1,1 @@
+{"version":3,"file":"events.js","sources":["../../src/events.js"],"sourcesContent":["import EE from 'eventemitter2'\n\nexport const EventEmitter = EE\n\nexport default EE\n"],"names":[],"mappings":";;;AAEY,MAAC,YAAY,GAAG;;;;"}

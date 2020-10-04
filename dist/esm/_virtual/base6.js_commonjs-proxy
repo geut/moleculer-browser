@@ -1,0 +1,3 @@
+import base from '../moleculer/src/validators/base.js';
+export { default } from '../moleculer/src/validators/base.js';
+//# sourceMappingURL=base6.js_commonjs-proxy.map

@@ -1,0 +1,3 @@
+import console from '../moleculer/src/metrics/reporters/console.js';
+export { default } from '../moleculer/src/metrics/reporters/console.js';
+//# sourceMappingURL=console3.js_commonjs-proxy.map

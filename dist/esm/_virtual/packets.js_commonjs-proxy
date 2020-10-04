@@ -1,0 +1,3 @@
+import packets from '../moleculer/src/packets.js';
+export { default } from '../moleculer/src/packets.js';
+//# sourceMappingURL=packets.js_commonjs-proxy.map

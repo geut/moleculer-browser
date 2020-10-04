@@ -1,0 +1,3 @@
+import newrelic from '../moleculer/src/tracing/exporters/newrelic.js';
+export { default } from '../moleculer/src/tracing/exporters/newrelic.js';
+//# sourceMappingURL=newrelic.js_commonjs-proxy.map

@@ -1,0 +1,3 @@
+import eventLegacy from '../moleculer/src/tracing/exporters/event-legacy.js';
+export { default } from '../moleculer/src/tracing/exporters/event-legacy.js';
+//# sourceMappingURL=event-legacy.js_commonjs-proxy.map

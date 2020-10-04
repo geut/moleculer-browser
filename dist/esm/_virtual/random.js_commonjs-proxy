@@ -1,0 +1,3 @@
+import random_1 from '../moleculer/src/strategies/random.js';
+export { default } from '../moleculer/src/strategies/random.js';
+//# sourceMappingURL=random.js_commonjs-proxy.map

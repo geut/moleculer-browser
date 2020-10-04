@@ -1,0 +1,3 @@
+import shard from '../moleculer/src/strategies/shard.js';
+export { default } from '../moleculer/src/strategies/shard.js';
+//# sourceMappingURL=shard.js_commonjs-proxy.map

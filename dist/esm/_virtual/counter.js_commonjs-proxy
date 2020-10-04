@@ -1,0 +1,3 @@
+import counter from '../moleculer/src/metrics/types/counter.js';
+export { default } from '../moleculer/src/metrics/types/counter.js';
+//# sourceMappingURL=counter.js_commonjs-proxy.map

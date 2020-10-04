@@ -1,0 +1,3 @@
+import fallback from '../moleculer/src/middlewares/fallback.js';
+export { default } from '../moleculer/src/middlewares/fallback.js';
+//# sourceMappingURL=fallback.js_commonjs-proxy.map

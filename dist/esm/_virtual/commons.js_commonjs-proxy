@@ -1,0 +1,3 @@
+import commons from '../moleculer/src/metrics/commons.js';
+export { default } from '../moleculer/src/metrics/commons.js';
+//# sourceMappingURL=commons.js_commonjs-proxy.map

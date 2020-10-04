@@ -1,0 +1,3 @@
+import loggers from '../moleculer/src/loggers/index.js';
+export { default } from '../moleculer/src/loggers/index.js';
+//# sourceMappingURL=index.js_commonjs-proxy.map

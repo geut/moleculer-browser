@@ -1,0 +1,3 @@
+import now_1 from '../moleculer/src/tracing/now.js';
+export { default } from '../moleculer/src/tracing/now.js';
+//# sourceMappingURL=now.js_commonjs-proxy.map

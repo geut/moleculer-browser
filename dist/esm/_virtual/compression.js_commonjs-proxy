@@ -1,0 +1,3 @@
+import compression from '../moleculer/src/middlewares/transmit/compression.js';
+export { default } from '../moleculer/src/middlewares/transmit/compression.js';
+//# sourceMappingURL=compression.js_commonjs-proxy.map

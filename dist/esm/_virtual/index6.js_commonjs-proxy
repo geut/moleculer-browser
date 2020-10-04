@@ -1,0 +1,3 @@
+import validators from '../moleculer/src/validators/index.js';
+export { default } from '../moleculer/src/validators/index.js';
+//# sourceMappingURL=index6.js_commonjs-proxy.map

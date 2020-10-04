@@ -1,0 +1,3 @@
+import formatted from '../moleculer/src/loggers/formatted.js';
+export { default } from '../moleculer/src/loggers/formatted.js';
+//# sourceMappingURL=formatted.js_commonjs-proxy.map

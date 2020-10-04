@@ -1,0 +1,3 @@
+import base from '../moleculer/src/cachers/base.js';
+export { default } from '../moleculer/src/cachers/base.js';
+//# sourceMappingURL=base4.js_commonjs-proxy.map

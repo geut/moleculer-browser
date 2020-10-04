@@ -1,0 +1,3 @@
+import memoryLru from '../moleculer/src/cachers/memory-lru.js';
+export { default } from '../moleculer/src/cachers/memory-lru.js';
+//# sourceMappingURL=memory-lru.js_commonjs-proxy.map

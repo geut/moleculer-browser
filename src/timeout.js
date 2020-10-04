@@ -1,3 +1,3 @@
-const { setTimeout } = require('timers-browserify')
+import { setTimeout } from 'timers-browserify'
 
-module.exports = setTimeout
+export default setTimeout

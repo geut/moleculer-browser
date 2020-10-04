@@ -1,0 +1,3 @@
+import endpointList from '../moleculer/src/registry/endpoint-list.js';
+export { default } from '../moleculer/src/registry/endpoint-list.js';
+//# sourceMappingURL=endpoint-list.js_commonjs-proxy.map

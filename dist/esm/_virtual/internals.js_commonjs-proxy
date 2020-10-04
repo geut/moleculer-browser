@@ -1,0 +1,3 @@
+import internals from '../moleculer/src/internals.js';
+export { default } from '../moleculer/src/internals.js';
+//# sourceMappingURL=internals.js_commonjs-proxy.map

@@ -1,0 +1,3 @@
+import cachers from '../moleculer/src/cachers/index.js';
+export { default } from '../moleculer/src/cachers/index.js';
+//# sourceMappingURL=index2.js_commonjs-proxy.map

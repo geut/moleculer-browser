@@ -1,0 +1,3 @@
+import lock from '../moleculer/src/lock.js';
+export { default } from '../moleculer/src/lock.js';
+//# sourceMappingURL=lock.js_commonjs-proxy.map

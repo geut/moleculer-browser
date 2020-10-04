@@ -1,0 +1,3 @@
+import base from '../moleculer/src/serializers/base.js';
+export { default } from '../moleculer/src/serializers/base.js';
+//# sourceMappingURL=base5.js_commonjs-proxy.map

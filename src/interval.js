@@ -1,3 +1,3 @@
-const { setInterval } = require('timers-browserify')
+import { setInterval } from 'timers-browserify'
 
-module.exports = setInterval
+export default setInterval

@@ -1,0 +1,3 @@
+import reporters from '../moleculer/src/metrics/reporters/index.js';
+export { default } from '../moleculer/src/metrics/reporters/index.js';
+//# sourceMappingURL=index9.js_commonjs-proxy.map

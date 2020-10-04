@@ -1,0 +1,3 @@
+import json from '../moleculer/src/serializers/json.js';
+export { default } from '../moleculer/src/serializers/json.js';
+//# sourceMappingURL=json.js_commonjs-proxy.map

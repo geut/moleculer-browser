@@ -1,0 +1,3 @@
+import * as fuck from '../fuck.js';
+export { fuck as default };
+//# sourceMappingURL=fuck.js_commonjs-proxy.map

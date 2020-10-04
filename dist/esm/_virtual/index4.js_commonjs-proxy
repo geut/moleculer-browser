@@ -1,0 +1,3 @@
+import serializers from '../moleculer/src/serializers/index.js';
+export { default } from '../moleculer/src/serializers/index.js';
+//# sourceMappingURL=index4.js_commonjs-proxy.map

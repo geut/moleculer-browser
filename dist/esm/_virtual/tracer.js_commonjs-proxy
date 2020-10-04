@@ -1,0 +1,3 @@
+import tracer from '../moleculer/src/tracing/tracer.js';
+export { default } from '../moleculer/src/tracing/tracer.js';
+//# sourceMappingURL=tracer.js_commonjs-proxy.map

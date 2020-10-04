@@ -5,6 +5,7 @@ const aliasModules = {
   './cpu-usage': 'src/cpu-usage.js',
   'node-fetch': 'src/fetch.js',
   os: 'src/os.js',
+  events: 'src/events.js',
   zlib: 'src/zlib.js'
 }
 

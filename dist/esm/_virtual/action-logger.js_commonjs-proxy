@@ -1,0 +1,3 @@
+import actionLogger from '../moleculer/src/middlewares/debugging/action-logger.js';
+export { default } from '../moleculer/src/middlewares/debugging/action-logger.js';
+//# sourceMappingURL=action-logger.js_commonjs-proxy.map

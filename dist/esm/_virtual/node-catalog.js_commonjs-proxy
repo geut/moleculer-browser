@@ -1,0 +1,3 @@
+import nodeCatalog from '../moleculer/src/registry/node-catalog.js';
+export { default } from '../moleculer/src/registry/node-catalog.js';
+//# sourceMappingURL=node-catalog.js_commonjs-proxy.map

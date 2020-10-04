@@ -1,0 +1,3 @@
+import actionHook from '../moleculer/src/middlewares/action-hook.js';
+export { default } from '../moleculer/src/middlewares/action-hook.js';
+//# sourceMappingURL=action-hook.js_commonjs-proxy.map

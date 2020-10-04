@@ -1,0 +1,3 @@
+import types from '../moleculer/src/metrics/types/index.js';
+export { default } from '../moleculer/src/metrics/types/index.js';
+//# sourceMappingURL=index8.js_commonjs-proxy.map

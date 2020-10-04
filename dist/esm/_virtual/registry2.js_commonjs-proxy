@@ -1,0 +1,3 @@
+import registry from '../moleculer/src/metrics/registry.js';
+export { default } from '../moleculer/src/metrics/registry.js';
+//# sourceMappingURL=registry2.js_commonjs-proxy.map

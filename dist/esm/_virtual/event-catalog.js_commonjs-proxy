@@ -1,0 +1,3 @@
+import eventCatalog from '../moleculer/src/registry/event-catalog.js';
+export { default } from '../moleculer/src/registry/event-catalog.js';
+//# sourceMappingURL=event-catalog.js_commonjs-proxy.map

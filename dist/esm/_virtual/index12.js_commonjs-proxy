@@ -1,0 +1,3 @@
+import middlewares from '../moleculer/src/middlewares/index.js';
+export { default } from '../moleculer/src/middlewares/index.js';
+//# sourceMappingURL=index12.js_commonjs-proxy.map

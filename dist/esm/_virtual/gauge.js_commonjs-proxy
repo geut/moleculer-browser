@@ -1,0 +1,3 @@
+import gauge from '../moleculer/src/metrics/types/gauge.js';
+export { default } from '../moleculer/src/metrics/types/gauge.js';
+//# sourceMappingURL=gauge.js_commonjs-proxy.map

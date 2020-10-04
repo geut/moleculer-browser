@@ -1,12 +1,39 @@
 /* global performance */
 
-const os = require('os-browserify')
-const cpus = require('cpus')
-const cpuUsage = require('./cpu-usage')
+import cpuUsage from './cpu-usage'
 
-os.cpus = cpus
-os.loadavg = cpuUsage.loadavg
-os.totalmem = () => performance ? performance.memory.totalJSHeapSize : 0
-os.freemem = () => performance ? performance.memory.totalJSHeapSize - performance.memory.usedJSHeapSize : 0
+export const hostname = () => {
+  if (typeof location !== 'undefined') {
+    return location.hostname
+  } else return ''
+}
 
-module.exports = os
+export const release = () => {
+  if (typeof navigator !== 'undefined') {
+    return navigator.appVersion
+  }
+  return ''
+}
+
+export const userInfo = () => ({
+  uid: 1000,
+  gid: 1000,
+  username: 'moleculer',
+  homedir: '/home/moleculer',
+  shell: '/bin/bash'
+})
+export const endianness = () => 'LE'
+export const uptime = () => Date.now()
+export const type = () => 'Browser'
+export const networkInterfaces = () => ({})
+export const getNetworkInterfaces = () => ({})
+export const arch = () => 'javascript'
+export const platform = () => 'browser'
+export const tmpdir = () => '/tmp'
+export const tmpDir = () => '/tmp'
+export const EOL = '\n'
+export const homedir = () => '/'
+export { default as cpus } from 'cpus'
+export const loadavg = cpuUsage.loadavg
+export const totalmem = () => performance ? performance.memory.totalJSHeapSize : Number.MAX_VALUE
+export const freemem = () => performance ? performance.memory.totalJSHeapSize - performance.memory.usedJSHeapSize : Number.MAX_VALUE

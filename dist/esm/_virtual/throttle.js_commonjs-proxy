@@ -1,0 +1,3 @@
+import throttle from '../moleculer/src/middlewares/throttle.js';
+export { default } from '../moleculer/src/middlewares/throttle.js';
+//# sourceMappingURL=throttle.js_commonjs-proxy.map
