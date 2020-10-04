@@ -1,2 +1,2 @@
-import e from"../moleculer/src/serializers/base.js";export{default}from"../moleculer/src/serializers/base.js";
+import e from"../moleculer/src/loggers/base.js";export{default}from"../moleculer/src/loggers/base.js";
 //# sourceMappingURL=base4.js_commonjs-proxy.map

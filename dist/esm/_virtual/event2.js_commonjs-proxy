@@ -1,2 +1,2 @@
-import e from"../moleculer/src/tracing/exporters/event.js";export{default}from"../moleculer/src/tracing/exporters/event.js";
+import e from"../moleculer/src/metrics/reporters/event.js";export{default}from"../moleculer/src/metrics/reporters/event.js";
 //# sourceMappingURL=event2.js_commonjs-proxy.map
