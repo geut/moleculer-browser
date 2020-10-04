@@ -24,6 +24,7 @@
   "dependencies": {
     "args": "^5.0.1",
     "avsc": "^5.4.22",
+    "browser-process-hrtime": "^1.0.0",
     "buffer": "^5.6.0",
     "cpus": "^1.0.2",
     "es6-error": "^4.1.1",
