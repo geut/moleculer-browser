@@ -6,6 +6,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## 0.0.10 - 2020-10-04 [YANKED]
+
 ## 0.0.9 - 2020-10-04 [YANKED]
 
 ## 0.0.8 - 2020-10-04 [YANKED]
@@ -26,5 +28,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial code.
 
-[Unreleased]: https://github.com/geut/moleculer-browser/compare/v0.0.9...HEAD
+[Unreleased]: https://github.com/geut/moleculer-browser/compare/v0.0.10...HEAD
 [0.0.3]: https://github.com/geut/moleculer-browser/compare/v0.0.2...v0.0.3

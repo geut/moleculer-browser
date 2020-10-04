@@ -1,2 +1,2 @@
-import e from"../moleculer/src/strategies/base.js";export{default}from"../moleculer/src/strategies/base.js";
+import r from"../moleculer/src/transporters/base.js";export{default}from"../moleculer/src/transporters/base.js";
 //# sourceMappingURL=base2.js_commonjs-proxy.map

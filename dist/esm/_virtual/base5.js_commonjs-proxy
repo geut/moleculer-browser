@@ -1,2 +1,2 @@
-import r from"../moleculer/src/transporters/base.js";export{default}from"../moleculer/src/transporters/base.js";
+import e from"../moleculer/src/serializers/base.js";export{default}from"../moleculer/src/serializers/base.js";
 //# sourceMappingURL=base5.js_commonjs-proxy.map

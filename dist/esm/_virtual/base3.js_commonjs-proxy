@@ -1,2 +1,2 @@
-import r from"../moleculer/src/validators/base.js";export{default}from"../moleculer/src/validators/base.js";
+import e from"../moleculer/src/cachers/base.js";export{default}from"../moleculer/src/cachers/base.js";
 //# sourceMappingURL=base3.js_commonjs-proxy.map
