@@ -1,4 +1,8 @@
+import kleur from 'kleur'
 import moleculer from './moleculer/index.js'
+
+// We disabled kleur since colors are only works in chrome and not so good.
+kleur.enabled = false
 
 export const ServiceBroker = moleculer.ServiceBroker
 export const Loggers = moleculer.Loggers
