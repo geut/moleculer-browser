@@ -1,3 +1,2 @@
-import rateLimiter from '../moleculer/src/tracing/rate-limiter.js';
-export { default } from '../moleculer/src/tracing/rate-limiter.js';
+import r from"../moleculer/src/tracing/rate-limiter.js";export{default}from"../moleculer/src/tracing/rate-limiter.js";
 //# sourceMappingURL=rate-limiter.js_commonjs-proxy.map

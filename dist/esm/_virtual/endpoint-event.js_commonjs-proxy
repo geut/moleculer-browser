@@ -1,3 +1,2 @@
-import endpointEvent from '../moleculer/src/registry/endpoint-event.js';
-export { default } from '../moleculer/src/registry/endpoint-event.js';
+import e from"../moleculer/src/registry/endpoint-event.js";export{default}from"../moleculer/src/registry/endpoint-event.js";
 //# sourceMappingURL=endpoint-event.js_commonjs-proxy.map

@@ -1,3 +1,2 @@
-import span from '../moleculer/src/tracing/span.js';
-export { default } from '../moleculer/src/tracing/span.js';
+import r from"../moleculer/src/tracing/span.js";export{default}from"../moleculer/src/tracing/span.js";
 //# sourceMappingURL=span.js_commonjs-proxy.map

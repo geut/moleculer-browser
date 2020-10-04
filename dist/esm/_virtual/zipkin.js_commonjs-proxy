@@ -1,3 +1,2 @@
-import zipkin from '../moleculer/src/tracing/exporters/zipkin.js';
-export { default } from '../moleculer/src/tracing/exporters/zipkin.js';
+import r from"../moleculer/src/tracing/exporters/zipkin.js";export{default}from"../moleculer/src/tracing/exporters/zipkin.js";
 //# sourceMappingURL=zipkin.js_commonjs-proxy.map

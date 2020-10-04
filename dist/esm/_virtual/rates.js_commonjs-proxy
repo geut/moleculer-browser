@@ -1,3 +1,2 @@
-import rates from '../moleculer/src/metrics/rates.js';
-export { default } from '../moleculer/src/metrics/rates.js';
+import r from"../moleculer/src/metrics/rates.js";export{default}from"../moleculer/src/metrics/rates.js";
 //# sourceMappingURL=rates.js_commonjs-proxy.map

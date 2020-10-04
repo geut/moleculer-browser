@@ -1,3 +1,2 @@
-import registry from '../moleculer/src/registry/registry.js';
-export { default } from '../moleculer/src/registry/registry.js';
+import r from"../moleculer/src/registry/registry.js";export{default}from"../moleculer/src/registry/registry.js";
 //# sourceMappingURL=registry.js_commonjs-proxy.map

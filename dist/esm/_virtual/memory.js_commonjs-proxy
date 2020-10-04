@@ -1,3 +1,2 @@
-import memory from '../moleculer/src/cachers/memory.js';
-export { default } from '../moleculer/src/cachers/memory.js';
+import r from"../moleculer/src/cachers/memory.js";export{default}from"../moleculer/src/cachers/memory.js";
 //# sourceMappingURL=memory.js_commonjs-proxy.map

@@ -1,7 +1,2 @@
-var global$1 = (typeof global !== 'undefined'
-  ? global : typeof self !== 'undefined'
-    ? self : typeof window !== 'undefined'
-      ? window : {});
-
-export default global$1;
+var e="undefined"!=typeof global?global:"undefined"!=typeof self?self:"undefined"!=typeof window?window:{};export default e;
 //# sourceMappingURL=global.js.map

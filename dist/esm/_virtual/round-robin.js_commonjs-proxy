@@ -1,3 +1,2 @@
-import roundRobin from '../moleculer/src/strategies/round-robin.js';
-export { default } from '../moleculer/src/strategies/round-robin.js';
+import r from"../moleculer/src/strategies/round-robin.js";export{default}from"../moleculer/src/strategies/round-robin.js";
 //# sourceMappingURL=round-robin.js_commonjs-proxy.map

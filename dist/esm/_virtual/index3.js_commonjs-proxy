@@ -1,3 +1,2 @@
-import transporters from '../moleculer/src/transporters/index.js';
-export { default } from '../moleculer/src/transporters/index.js';
+import r from"../moleculer/src/transporters/index.js";export{default}from"../moleculer/src/transporters/index.js";
 //# sourceMappingURL=index3.js_commonjs-proxy.map

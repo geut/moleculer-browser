@@ -1,3 +1,2 @@
-import context from '../moleculer/src/context.js';
-export { default } from '../moleculer/src/context.js';
+import e from"../moleculer/src/context.js";export{default}from"../moleculer/src/context.js";
 //# sourceMappingURL=context.js_commonjs-proxy.map

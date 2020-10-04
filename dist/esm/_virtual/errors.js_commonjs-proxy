@@ -1,3 +1,2 @@
-import errors from '../moleculer/src/errors.js';
-export { default } from '../moleculer/src/errors.js';
+import r from"../moleculer/src/errors.js";export{default}from"../moleculer/src/errors.js";
 //# sourceMappingURL=errors.js_commonjs-proxy.map

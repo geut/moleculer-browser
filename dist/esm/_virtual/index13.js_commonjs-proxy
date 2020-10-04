@@ -1,3 +1,2 @@
-import metrics from '../moleculer/src/metrics/index.js';
-export { default } from '../moleculer/src/metrics/index.js';
+import e from"../moleculer/src/metrics/index.js";export{default}from"../moleculer/src/metrics/index.js";
 //# sourceMappingURL=index13.js_commonjs-proxy.map

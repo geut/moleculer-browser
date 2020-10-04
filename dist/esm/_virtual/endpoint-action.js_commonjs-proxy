@@ -1,3 +1,2 @@
-import endpointAction from '../moleculer/src/registry/endpoint-action.js';
-export { default } from '../moleculer/src/registry/endpoint-action.js';
+import r from"../moleculer/src/registry/endpoint-action.js";export{default}from"../moleculer/src/registry/endpoint-action.js";
 //# sourceMappingURL=endpoint-action.js_commonjs-proxy.map

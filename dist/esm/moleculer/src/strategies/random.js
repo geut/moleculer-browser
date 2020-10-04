@@ -1,21 +1,2 @@
-import _ from 'lodash';
-import base from './base.js';
-
-const { random } = _;
-
-
-/**
- * Random strategy class
- *
- * @class RandomStrategy
- */
-class RandomStrategy extends base {
-	select(list) {
-		return list[random(0, list.length - 1)];
-	}
-}
-
-var random_1 = RandomStrategy;
-
-export default random_1;
+import e from"lodash";import r from"./base.js";const{random:t}=e;var o=class extends r{select(e){return e[t(0,e.length-1)]}};export default o;
 //# sourceMappingURL=random.js.map

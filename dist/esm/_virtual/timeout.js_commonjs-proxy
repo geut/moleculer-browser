@@ -1,3 +1,2 @@
-import timeout from '../moleculer/src/middlewares/timeout.js';
-export { default } from '../moleculer/src/middlewares/timeout.js';
+import e from"../moleculer/src/middlewares/timeout.js";export{default}from"../moleculer/src/middlewares/timeout.js";
 //# sourceMappingURL=timeout.js_commonjs-proxy.map

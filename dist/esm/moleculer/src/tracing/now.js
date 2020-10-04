@@ -1,21 +1,2 @@
-import proc from '../../../process.js';
-
-const loadTime = getNanoSeconds();
-const nodeLoadTime = loadTime - proc.uptime() * 1e9;
-
-function getNanoSeconds() {
-	const time = proc.hrtime();
-	return time[0] * 1e9 + time[1];
-}
-
-function now() {
-	return (getNanoSeconds() - nodeLoadTime) / 1e6;
-}
-
-const loadNs = now();
-const loadMs = Date.now();
-
-var now_1 = () => loadMs + now() - loadNs;
-
-export default now_1;
+import t from"../../../process.js";const e=n()-1e9*t.uptime();function n(){const e=t.hrtime();return 1e9*e[0]+e[1]}function o(){return(n()-e)/1e6}const r=o(),c=Date.now();export default()=>c+o()-r;
 //# sourceMappingURL=now.js.map

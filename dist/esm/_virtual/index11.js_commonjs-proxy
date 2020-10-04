@@ -1,3 +1,2 @@
-import discoverers from '../moleculer/src/registry/discoverers/index.js';
-export { default } from '../moleculer/src/registry/discoverers/index.js';
+import r from"../moleculer/src/registry/discoverers/index.js";export{default}from"../moleculer/src/registry/discoverers/index.js";
 //# sourceMappingURL=index11.js_commonjs-proxy.map

@@ -1,3 +1,2 @@
-import errorHandler from '../moleculer/src/middlewares/error-handler.js';
-export { default } from '../moleculer/src/middlewares/error-handler.js';
+import r from"../moleculer/src/middlewares/error-handler.js";export{default}from"../moleculer/src/middlewares/error-handler.js";
 //# sourceMappingURL=error-handler.js_commonjs-proxy.map

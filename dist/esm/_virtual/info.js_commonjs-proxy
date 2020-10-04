@@ -1,3 +1,2 @@
-import info from '../moleculer/src/metrics/types/info.js';
-export { default } from '../moleculer/src/metrics/types/info.js';
+import e from"../moleculer/src/metrics/types/info.js";export{default}from"../moleculer/src/metrics/types/info.js";
 //# sourceMappingURL=info.js_commonjs-proxy.map

@@ -1,3 +1,2 @@
-import local from '../moleculer/src/registry/discoverers/local.js';
-export { default } from '../moleculer/src/registry/discoverers/local.js';
+import r from"../moleculer/src/registry/discoverers/local.js";export{default}from"../moleculer/src/registry/discoverers/local.js";
 //# sourceMappingURL=local.js_commonjs-proxy.map

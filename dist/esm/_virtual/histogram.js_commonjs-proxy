@@ -1,3 +1,2 @@
-import histogram from '../moleculer/src/metrics/types/histogram.js';
-export { default } from '../moleculer/src/metrics/types/histogram.js';
+import r from"../moleculer/src/metrics/types/histogram.js";export{default}from"../moleculer/src/metrics/types/histogram.js";
 //# sourceMappingURL=histogram.js_commonjs-proxy.map

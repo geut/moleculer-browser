@@ -1,3 +1,2 @@
-import circuitBreaker from '../moleculer/src/middlewares/circuit-breaker.js';
-export { default } from '../moleculer/src/middlewares/circuit-breaker.js';
+import r from"../moleculer/src/middlewares/circuit-breaker.js";export{default}from"../moleculer/src/middlewares/circuit-breaker.js";
 //# sourceMappingURL=circuit-breaker.js_commonjs-proxy.map

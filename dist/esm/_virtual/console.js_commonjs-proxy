@@ -1,3 +1,2 @@
-import console_1 from '../moleculer/src/loggers/console.js';
-export { default } from '../moleculer/src/loggers/console.js';
+import o from"../moleculer/src/loggers/console.js";export{default}from"../moleculer/src/loggers/console.js";
 //# sourceMappingURL=console.js_commonjs-proxy.map

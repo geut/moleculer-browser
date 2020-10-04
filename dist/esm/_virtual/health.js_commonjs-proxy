@@ -1,3 +1,2 @@
-import health from '../moleculer/src/health.js';
-export { default } from '../moleculer/src/health.js';
+import e from"../moleculer/src/health.js";export{default}from"../moleculer/src/health.js";
 //# sourceMappingURL=health.js_commonjs-proxy.map

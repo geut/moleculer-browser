@@ -1,3 +1,2 @@
-import actionCatalog from '../moleculer/src/registry/action-catalog.js';
-export { default } from '../moleculer/src/registry/action-catalog.js';
+import r from"../moleculer/src/registry/action-catalog.js";export{default}from"../moleculer/src/registry/action-catalog.js";
 //# sourceMappingURL=action-catalog.js_commonjs-proxy.map

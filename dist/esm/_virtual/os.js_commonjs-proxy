@@ -1,3 +1,2 @@
-import * as os from '../os.js';
-export { os as default };
+import*as o from"../os.js";export{o as default};
 //# sourceMappingURL=os.js_commonjs-proxy.map

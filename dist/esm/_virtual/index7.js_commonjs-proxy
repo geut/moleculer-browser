@@ -1,3 +1,2 @@
-import exporters from '../moleculer/src/tracing/exporters/index.js';
-export { default } from '../moleculer/src/tracing/exporters/index.js';
+import r from"../moleculer/src/tracing/exporters/index.js";export{default}from"../moleculer/src/tracing/exporters/index.js";
 //# sourceMappingURL=index7.js_commonjs-proxy.map

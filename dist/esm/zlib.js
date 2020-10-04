@@ -1,11 +1,2 @@
-import { deflateSync, inflateSync, gzip as gzip$1, gunzip as gunzip$1, zlibSync, unzlibSync } from 'fflate';
-
-const deflateRaw = (...args) => deflateSync(...args);
-const inflateRaw = (...args) => inflateSync(...args);
-const gzip = (...args) => gzip$1(...args);
-const gunzip = (...args) => gunzip$1(...args);
-const deflate = (...args) => zlibSync(...args);
-const inflate = (...args) => unzlibSync(...args);
-
-export { deflate, deflateRaw, gunzip, gzip, inflate, inflateRaw };
+import{deflateSync as o,inflateSync as p,gzip as t,gunzip as a,zlibSync as f,unzlibSync as i}from"fflate";const r=(...p)=>o(...p),s=(...o)=>p(...o),e=(...o)=>t(...o),g=(...o)=>a(...o),m=(...o)=>f(...o),n=(...o)=>i(...o);export{m as deflate,r as deflateRaw,g as gunzip,e as gzip,n as inflate,s as inflateRaw};
 //# sourceMappingURL=zlib.js.map

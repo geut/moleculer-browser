@@ -1,25 +1,2 @@
-import constants from './constants.js';
-import base from './types/base.js';
-import gauge from './types/gauge.js';
-import counter from './types/counter.js';
-import histogram from './types/histogram.js';
-import info from './types/info.js';
-import reporters from './reporters/index.js';
-import registry from './registry.js';
-
-var metrics = {
-	METRIC: constants,
-
-	MetricRegistry: registry,
-
-	BaseMetric: base,
-	CounterMetric: counter,
-	GaugeMetric: gauge,
-	HistrogramMetric: histogram,
-	InfoMetric: info,
-
-	Reporters: reporters
-};
-
-export default metrics;
+import r from"./constants.js";import t from"./types/base.js";import e from"./types/gauge.js";import o from"./types/counter.js";import s from"./types/histogram.js";import i from"./types/info.js";import m from"./reporters/index.js";import p from"./registry.js";var f={METRIC:r,MetricRegistry:p,BaseMetric:t,CounterMetric:o,GaugeMetric:e,HistrogramMetric:s,InfoMetric:i,Reporters:m};export default f;
 //# sourceMappingURL=index.js.map

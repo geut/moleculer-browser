@@ -1,3 +1,2 @@
-import fastest from '../moleculer/src/validators/fastest.js';
-export { default } from '../moleculer/src/validators/fastest.js';
+import r from"../moleculer/src/validators/fastest.js";export{default}from"../moleculer/src/validators/fastest.js";
 //# sourceMappingURL=fastest.js_commonjs-proxy.map

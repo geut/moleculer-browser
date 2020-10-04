@@ -1,3 +1,2 @@
-import transit from '../moleculer/src/transit.js';
-export { default } from '../moleculer/src/transit.js';
+import r from"../moleculer/src/transit.js";export{default}from"../moleculer/src/transit.js";
 //# sourceMappingURL=transit.js_commonjs-proxy.map

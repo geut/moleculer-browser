@@ -1,3 +1,2 @@
-import constants from '../moleculer/src/metrics/constants.js';
-export { default } from '../moleculer/src/metrics/constants.js';
+import r from"../moleculer/src/metrics/constants.js";export{default}from"../moleculer/src/metrics/constants.js";
 //# sourceMappingURL=constants2.js_commonjs-proxy.map

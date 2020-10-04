@@ -1,3 +1,2 @@
-import transitLogger from '../moleculer/src/middlewares/debugging/transit-logger.js';
-export { default } from '../moleculer/src/middlewares/debugging/transit-logger.js';
+import e from"../moleculer/src/middlewares/debugging/transit-logger.js";export{default}from"../moleculer/src/middlewares/debugging/transit-logger.js";
 //# sourceMappingURL=transit-logger.js_commonjs-proxy.map

@@ -1,3 +1,2 @@
-import serviceItem from '../moleculer/src/registry/service-item.js';
-export { default } from '../moleculer/src/registry/service-item.js';
+import e from"../moleculer/src/registry/service-item.js";export{default}from"../moleculer/src/registry/service-item.js";
 //# sourceMappingURL=service-item.js_commonjs-proxy.map

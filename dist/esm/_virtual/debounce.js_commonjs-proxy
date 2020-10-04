@@ -1,3 +1,2 @@
-import debounce from '../moleculer/src/middlewares/debounce.js';
-export { default } from '../moleculer/src/middlewares/debounce.js';
+import e from"../moleculer/src/middlewares/debounce.js";export{default}from"../moleculer/src/middlewares/debounce.js";
 //# sourceMappingURL=debounce.js_commonjs-proxy.map

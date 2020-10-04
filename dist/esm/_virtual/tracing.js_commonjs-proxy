@@ -1,3 +1,2 @@
-import tracing from '../moleculer/src/middlewares/tracing.js';
-export { default } from '../moleculer/src/middlewares/tracing.js';
+import r from"../moleculer/src/middlewares/tracing.js";export{default}from"../moleculer/src/middlewares/tracing.js";
 //# sourceMappingURL=tracing.js_commonjs-proxy.map
