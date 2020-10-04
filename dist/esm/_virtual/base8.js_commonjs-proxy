@@ -1,2 +1,2 @@
-import e from"../moleculer/src/metrics/types/base.js";export{default}from"../moleculer/src/metrics/types/base.js";
+import e from"../moleculer/src/strategies/base.js";export{default}from"../moleculer/src/strategies/base.js";
 //# sourceMappingURL=base8.js_commonjs-proxy.map

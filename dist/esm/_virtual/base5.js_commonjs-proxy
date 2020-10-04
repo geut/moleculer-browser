@@ -1,2 +1,2 @@
-import e from"../moleculer/src/serializers/base.js";export{default}from"../moleculer/src/serializers/base.js";
+import r from"../moleculer/src/validators/base.js";export{default}from"../moleculer/src/validators/base.js";
 //# sourceMappingURL=base5.js_commonjs-proxy.map

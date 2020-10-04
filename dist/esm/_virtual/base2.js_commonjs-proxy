@@ -1,2 +1,2 @@
-import r from"../moleculer/src/transporters/base.js";export{default}from"../moleculer/src/transporters/base.js";
+import e from"../moleculer/src/cachers/base.js";export{default}from"../moleculer/src/cachers/base.js";
 //# sourceMappingURL=base2.js_commonjs-proxy.map

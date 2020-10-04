@@ -1,2 +1,2 @@
-import r from"../moleculer/src/validators/base.js";export{default}from"../moleculer/src/validators/base.js";
+import r from"../moleculer/src/tracing/exporters/base.js";export{default}from"../moleculer/src/tracing/exporters/base.js";
 //# sourceMappingURL=base6.js_commonjs-proxy.map

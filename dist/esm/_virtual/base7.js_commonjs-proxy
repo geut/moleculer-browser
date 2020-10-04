@@ -1,2 +1,2 @@
-import r from"../moleculer/src/tracing/exporters/base.js";export{default}from"../moleculer/src/tracing/exporters/base.js";
+import r from"../moleculer/src/metrics/reporters/base.js";export{default}from"../moleculer/src/metrics/reporters/base.js";
 //# sourceMappingURL=base7.js_commonjs-proxy.map

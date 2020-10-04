@@ -1,2 +1,2 @@
-import r from"../moleculer/src/registry/discoverers/base.js";export{default}from"../moleculer/src/registry/discoverers/base.js";
+import e from"../moleculer/src/metrics/types/base.js";export{default}from"../moleculer/src/metrics/types/base.js";
 //# sourceMappingURL=base10.js_commonjs-proxy.map
